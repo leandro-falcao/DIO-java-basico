@@ -1,18 +1,26 @@
-## Getting Started
+# DIO-java-basico
+respositorio da DIO de java e de basico da linguagem. aprendizado no bootcamp do santander de 2024
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+<h2> D I O-java-basico-santander </h2>
+ 
+Pata principal e default é a src/:
 
-## Folder Structure
+- `src`: pasta principal 
+- `lib`: pasta de dependencias | the folder to maintain dependencies
 
-The workspace contains two folders by default, where:
+Os arquivos copilados vão para a pasta `bin/`- no entando como são arquivos `.class` nao será enviados para o repositório
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Qualquer situação me adicione no linkedin:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- linkedin: https://www.linkedin.com/in/leandro-falcao/ 
+- instagram: https://www.instagram.com/lebitec/ ...
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+ <div >   
+    <a href="https://www.linkedin.com/in/leandro-falcao/-45875016a" target="_blank">
+        <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"/>
+    </a>
+    <a href="https://www.instagram.com/lebitec/" target="_blank"> 
+        <img src="https://img.shields.io/badge/instagram-%23ff0F.svg?&style=for-the-badge&logo=instagram&logoColor=f00" target="_blank" /> 
+   </a>
+</div>
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
