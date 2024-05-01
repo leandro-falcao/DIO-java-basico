@@ -38,38 +38,38 @@ Os arquivos copilados vão para a pasta `bin/`- no entando como são arquivos `.
 <div>
    <h4> Exemplos em código java</h4>
 
-   <span><code style="color: #5bfc7e;">byte</code> <code style="color: #f0b630;">idade</code> = <code style="color: #4872a1;">123;</code></span>
+   <span><code>byte</code> <code>idade</code> = <code>123;</code></span>
 
-   <span><code style="color: #5bfc7e;">short</code> <code style="color: #f0b60;">ano</code> = <code style="color: #4872a1;">2024;</code></span>
+   <span><code>short</code> <code>ano</code> = <code>2024;</code></span>
 
-   <span><code style="color: #5bfc7e;">int</code> <code style="color: #f0b630;">nums</code> = <code style="color: #4872a1;">21070332;</code></span>
+   <span><code>int</code> <code>nums</code> = <code>21070332;</code></span>
 
-   <span><code style="color: #5bfc7e;">long</code> <code style="color: #f0b630;">cp</code> = <code style="color: #4872a1;">3268578456L;</code></span>
+   <span><code>long</code> <code>cp</code> = <code>3268578456L;</code></span>
 
-   <span><code style="color: #5bfc7e;">float</code> <code style="color: #f0b630;">pi</code> = <code style="color: #4872a1;">3.14F;</code> // Insira F no final se não interpretara como double</span>
+   <span><code>float</code> <code>pi</code> = <code>3.14F;</code> // Insira F no final se não interpretara como double</span>
 
-   <span><code style="color: #5bfc7e;">double</code> <code style="color: #f0b630;">salario</code> = <code style="color: #4872a1;">1975.53</code></span>
+   <span><code>double</code> <code>salario</code> = <code>1975.53</code></span>
 
-   <span><code style="color: #5bfc7e;">char</code> <code style="color: #f0b630;">sexo</code> = <code style="color: #4872a1;">"F";</code> // um caractere</span>
+   <span><code>char</code> <code>sexo</code> = <code>"F";</code> // um caractere</span>
 
-   <span><code style="color: #5bfc7e;">boolean</code> <code style="color: #f0b630;">doador</code> = <code style="color: #4872a1;">true</code></span>
+   <span><code>boolean</code> <code>doador</code> = <code>true</code></span>
 
-   <span><code style="color: #5bfc7e;">String</code> <code style="color: #f0b630;">nome</code> = <code style="color: #4872a1;">"Leandro"</code> // String uma classe por isso letra Maiuscula inicial</span>
+   <span><code>String</code> <code>nome</code> = <code>"Leandro"</code> // String uma classe por isso letra Maiuscula inicial</span>
   
-   <span><code style="color: #5bfc7e;">date</code> <code style="color: #f0b630;">dataNascimento</code> = <code style="color: #4872a1;">new Date()</code> // também classe. Precisa do import o java.utils</span>
+   <span><code>date</code> <code>dataNascimento</code> = <code>new Date()</code> // também classe. Precisa do import o java.utils</span>
 
 </div>
 
 <div>
     <h4> Exemplo de código constante </h4>
     <h5>Deve está em caixa alta (MAIUSCULA)</h5>
-    <span><code style="color: #f01c05;">final double</code> <code style="color: #bb14fc;">VALOR_PI</code> = <code style="color: #14fc5e;">3.14</code>
-    </span>
+    <span><code>final double</code><code>VALOR_PI</code> = <code>3.14</code></span><br>
 </div>
 
 <hr>
 <hr>
 <br>
+<hr>
 <hr>
 
 <article>
@@ -172,7 +172,6 @@ Os arquivos copilados vão para a pasta `bin/`- no entando como são arquivos `.
 
 </article>
 
-
 <hr>
 <hr>
 <br>
@@ -180,52 +179,23 @@ Os arquivos copilados vão para a pasta `bin/`- no entando como são arquivos `.
 
 <article>
     <h3> Métodos em JAVA</h3>
-    <h4>Exemplos de Métodos</h4>
     <!-- o metodo é -->
     <p>
-        <span> Atribuição '=' exemplos:</span>
-        <br> 
-        <span> String nome = "Leandro"; </span> 
+        <span>Critérios não Obrigatórios mas boa práticas no JAVA</span>
         <br>
-        <span> int num = 123; </span>
+        <ul>
+            <li> Deve ser nomeado como Verbo</li>
+            <li> Seguir o padrão camelcase, começa com minuscula, e segunda Maiuscula</li>
+            <li> lista 3 </li>
+        </ul> 
         <br>
+        <span> Exemplos:</span><br>
+        <p>
+            <code> somar(int num1, int num2){  }</code><br> 
+            <code> abrirConexao(){  }</code><br> 
+            <code> findById(int id){  }</code><br> 
+        </p><br>
     </p>
-    <hr>
-<!-- operador de matematicos de '+', '-','*', '/','%', '**','+', '+' -->
-    <p>
-        <span> Atr '+' exemplos:</span>
-        <br> 
-        <span> int somarNum= 2 + 5; // resultado é 7 </span> 
-        <br>
-        <br>
-        <span> Atr '-' exemplo:</span>
-        <br> 
-        <span> int somarNum= 10 - 4; // resultado é 6 </span>
-        <br>
-        <span> Atr '*' exemplo:</span>
-        <br> 
-        <span> double somarNum= 5 * 4; // resultado é 20.0 </span>
-        <br>
-        <span> Atr '/' exemplo:</span>
-        <br> 
-        <span> int somarNum= 15 / 3; // resultado é 5 </span>
-        <br>
-        <br>
-        <span> Atr '%' resto de divisao exemplo:</span>
-        <br> 
-        <span> double somarNum= 10 / 3; // resultado é 1.0 </span>
-    </p>
-    <hr>
-<!-- operador de atribuição '=' -->
-    <p>
-        <span> Atribuição '=' exemplos:</span>
-        <br> 
-        <span> String nome = "Leandro"; </span> 
-        <br>
-        <span> int num = 123; </span>
-        <br>
-    </p>
-    <hr>
     <hr>
    <h4>Exemplos de Unarioss</h4>
     <!-- operador de atribuição '=' -->
