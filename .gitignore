@@ -27,4 +27,5 @@ replay_pid*
 # pasta config do vs code dos projetos filhos
 tipos-variaveis/.vscode
 tipos-variaveis/.vscode/settings.json
-*.vscode/settings.json
+*settings.json
+#sistema-smarttv/.vscode/settings.json
