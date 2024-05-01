@@ -242,7 +242,17 @@ Os arquivos copilados vão para a pasta `bin/`- no entando como são arquivos `.
             <div> E outas palavras reservadas</div>
         </p>
     </div> 
-    
+</article>
+<hr>
+<hr>
+<hr>
+<article>
+    <h3> Criando Documentação em formato html no terminal via javadoc para ser disponibilizado via web</h3>
+    <!-- o escopo é -->
+    <div>
+        <span> esse comando no terminal: <code>javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d /docs sistema-smarttv/src/*.java</code></span><br>
+        </p>
+    </div> 
 </article>
 <hr>
 <hr>
