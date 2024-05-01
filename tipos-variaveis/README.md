@@ -190,60 +190,11 @@ Os arquivos copilados vão para a pasta `bin/`- no entando como são arquivos `.
         </ul> 
         <br>
         <span> Exemplos:</span><br>
-        <p>
+        <div>
             <code> somar(int num1, int num2){  }</code><br> 
             <code> abrirConexao(){  }</code><br> 
             <code> findById(int id){  }</code><br> 
-        </p><br>
-    </p>
-    <hr>
-   <h4>Exemplos de Unarioss</h4>
-    <!-- operador de atribuição '=' -->
-    <p>
-        <span> Atribuição '+' valor positivo:</span>
-        <br>
-        <span> **Atribuição '+' pode ser um concatenador de string e etc</span>
-        <br> 
-        <span> Atribuição '-' valor negativo:</span>
-        <br> 
-        <span> Atribuição '++' valor incremeta mais um no valor</span>
-        <br>
-        <span> Atribuição '--' valor decrementa menos um no valor</span>
-    </p>
-    <hr>
-    <hr>
-<!-- operador ternario (se true)'?' -->
-    <p>
-        <span> Operadore Ternarios simbolo (se true) '?' já (se false) ':'  </span>
-        <br> 
-        <span> 'expressao codicional' ? 'caso true' : 'caso false' </span> 
-        <br>
-        <span> exemplo: </span><br>
-        <span> int a, b; </span><br>
-        <span>  a = 5; </span><br>
-        <span>  b = 6; </span><br>
-        <span> int a, b; </span><br>
-    </p>
-    <hr>
-    <hr>
-<!-- operador Relacionais '==' '!=' '>' '>=' '<' '<=' '&&' '||' -->
-    <p>
-        <span> Operadores Relacionais retorna um valor boobleano(true ou false) os operadores: '==' '!=' '>' '>=' '<' '<=' '&&' '||'</span>
-        <br> 
-        <span> 'expressao codicional' ? 'caso true' : 'caso false' </span> 
-        <br>
-        <span>'==' Verifica se variavel ou valoresc é igual ao outro </span><br>
-        <span>'===' Verifica se variavel ou valores é estritamente iguais </span><br>
-        <span>'!=' Verifica se variaveid/valores se são diferentes </span><br>
-        <span>'!==' Verifica se variaveis ou valores são estritamente diferentes </span><br>
-        <span>'>' Verifica se variaveis/valores são maior que </span><br>
-        <span>'>=' Verifica se variaveis/valores são maior e igual que </span><br>
-        <span>'<' Verifica se variaveis/valores são menor que </span><br>
-        <span>'<=' Verifica se variaveis/valores são menor e igual que </span><br>
-        <span><< Operadores Lógicos >></span><br>
-        <span>'&&'  Verifica se variaveis/valores são E. todos tem ser true </span><br>
-        <span>'||'  Verifica se variaveis/valores são OU. Um ou outro true</span><br>
-        <br>
+        </div><br>
     </p>
 
 </article>
