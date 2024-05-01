@@ -50,11 +50,230 @@ Os arquivos copilados vão para a pasta `bin/`- no entando como são arquivos `.
 
    <span><code style="color: #5bfc7e;">double</code> <code style="color: #f0b630;">salario</code> = <code style="color: #4872a1;">1975.53</code></span>
 
+   <span><code style="color: #5bfc7e;">char</code> <code style="color: #f0b630;">sexo</code> = <code style="color: #4872a1;">"F";</code> // um caractere</span>
+
+   <span><code style="color: #5bfc7e;">boolean</code> <code style="color: #f0b630;">doador</code> = <code style="color: #4872a1;">true</code></span>
+
+   <span><code style="color: #5bfc7e;">String</code> <code style="color: #f0b630;">nome</code> = <code style="color: #4872a1;">"Leandro"</code> // String uma classe por isso letra Maiuscula inicial</span>
+  
+   <span><code style="color: #5bfc7e;">date</code> <code style="color: #f0b630;">dataNascimento</code> = <code style="color: #4872a1;">new Date()</code> // também classe. Precisa do import o java.utils</span>
+
 </div>
 
 <div>
-    <div style="font-size: 22px; font-weight: bolder"> exemplo de código constante </div>
-    <div>Deve está em caixa alta (MAIUSCULA)</div>
+    <h4> Exemplo de código constante </h4>
+    <h5>Deve está em caixa alta (MAIUSCULA)</h5>
     <span><code style="color: #f01c05;">final double</code> <code style="color: #bb14fc;">VALOR_PI</code> = <code style="color: #14fc5e;">3.14</code>
     </span>
 </div>
+
+<hr>
+<hr>
+<br>
+<hr>
+
+<article>
+    <h3> Operadores em JAVA</h3>
+    <h4>Exemplos de operadores</h4>
+    <!-- operador de atribuição '=' -->
+    <p>
+        <span> Atribuição '=' exemplos:</span>
+        <br> 
+        <span> String nome = "Leandro"; </span> 
+        <br>
+        <span> int num = 123; </span>
+        <br>
+    </p>
+    <hr>
+<!-- operador de matematicos de '+', '-','*', '/','%', '**','+', '+' -->
+    <p>
+        <span> Atr '+' exemplos:</span>
+        <br> 
+        <span> int somarNum= 2 + 5; // resultado é 7 </span> 
+        <br>
+        <br>
+        <span> Atr '-' exemplo:</span>
+        <br> 
+        <span> int somarNum= 10 - 4; // resultado é 6 </span>
+        <br>
+        <span> Atr '*' exemplo:</span>
+        <br> 
+        <span> double somarNum= 5 * 4; // resultado é 20.0 </span>
+        <br>
+        <span> Atr '/' exemplo:</span>
+        <br> 
+        <span> int somarNum= 15 / 3; // resultado é 5 </span>
+        <br>
+        <br>
+        <span> Atr '%' resto de divisao exemplo:</span>
+        <br> 
+        <span> double somarNum= 10 / 3; // resultado é 1.0 </span>
+    </p>
+    <hr>
+<!-- operador de atribuição '=' -->
+    <p>
+        <span> Atribuição '=' exemplos:</span>
+        <br> 
+        <span> String nome = "Leandro"; </span> 
+        <br>
+        <span> int num = 123; </span>
+        <br>
+    </p>
+    <hr>
+    <hr>
+   <h4>Exemplos de Unarioss</h4>
+    <!-- operador de atribuição '=' -->
+    <p>
+        <span> Atribuição '+' valor positivo:</span>
+        <br>
+        <span> **Atribuição '+' pode ser um concatenador de string e etc</span>
+        <br> 
+        <span> Atribuição '-' valor negativo:</span>
+        <br> 
+        <span> Atribuição '++' valor incremeta mais um no valor</span>
+        <br>
+        <span> Atribuição '--' valor decrementa menos um no valor</span>
+    </p>
+    <hr>
+    <hr>
+<!-- operador ternario (se true)'?' -->
+    <p>
+        <span> Operadore Ternarios simbolo (se true) '?' já (se false) ':'  </span>
+        <br> 
+        <span> 'expressao codicional' ? 'caso true' : 'caso false' </span> 
+        <br>
+        <span> exemplo: </span><br>
+        <span> int a, b; </span><br>
+        <span>  a = 5; </span><br>
+        <span>  b = 6; </span><br>
+        <span> int a, b; </span><br>
+    </p>
+    <hr>
+    <hr>
+<!-- operador Relacionais '==' '!=' '>' '>=' '<' '<=' '&&' '||' -->
+    <p>
+        <span> Operadores Relacionais retorna um valor boobleano(true ou false) os operadores: '==' '!=' '>' '>=' '<' '<=' '&&' '||'</span>
+        <br> 
+        <span> 'expressao codicional' ? 'caso true' : 'caso false' </span> 
+        <br>
+        <span>'==' Verifica se variavel ou valoresc é igual ao outro </span><br>
+        <span>'===' Verifica se variavel ou valores é estritamente iguais </span><br>
+        <span>'!=' Verifica se variaveid/valores se são diferentes </span><br>
+        <span>'!==' Verifica se variaveis ou valores são estritamente diferentes </span><br>
+        <span>'>' Verifica se variaveis/valores são maior que </span><br>
+        <span>'>=' Verifica se variaveis/valores são maior e igual que </span><br>
+        <span>'<' Verifica se variaveis/valores são menor que </span><br>
+        <span>'<=' Verifica se variaveis/valores são menor e igual que </span><br>
+        <span><< Operadores Lógicos >></span><br>
+        <span>'&&'  Verifica se variaveis/valores são E. todos tem ser true </span><br>
+        <span>'||'  Verifica se variaveis/valores são OU. Um ou outro true</span><br>
+        <br>
+    </p>
+
+</article>
+
+
+<hr>
+<hr>
+<br>
+<hr>
+
+<article>
+    <h3> Métodos em JAVA</h3>
+    <h4>Exemplos de Métodos</h4>
+    <!-- o metodo é -->
+    <p>
+        <span> Atribuição '=' exemplos:</span>
+        <br> 
+        <span> String nome = "Leandro"; </span> 
+        <br>
+        <span> int num = 123; </span>
+        <br>
+    </p>
+    <hr>
+<!-- operador de matematicos de '+', '-','*', '/','%', '**','+', '+' -->
+    <p>
+        <span> Atr '+' exemplos:</span>
+        <br> 
+        <span> int somarNum= 2 + 5; // resultado é 7 </span> 
+        <br>
+        <br>
+        <span> Atr '-' exemplo:</span>
+        <br> 
+        <span> int somarNum= 10 - 4; // resultado é 6 </span>
+        <br>
+        <span> Atr '*' exemplo:</span>
+        <br> 
+        <span> double somarNum= 5 * 4; // resultado é 20.0 </span>
+        <br>
+        <span> Atr '/' exemplo:</span>
+        <br> 
+        <span> int somarNum= 15 / 3; // resultado é 5 </span>
+        <br>
+        <br>
+        <span> Atr '%' resto de divisao exemplo:</span>
+        <br> 
+        <span> double somarNum= 10 / 3; // resultado é 1.0 </span>
+    </p>
+    <hr>
+<!-- operador de atribuição '=' -->
+    <p>
+        <span> Atribuição '=' exemplos:</span>
+        <br> 
+        <span> String nome = "Leandro"; </span> 
+        <br>
+        <span> int num = 123; </span>
+        <br>
+    </p>
+    <hr>
+    <hr>
+   <h4>Exemplos de Unarioss</h4>
+    <!-- operador de atribuição '=' -->
+    <p>
+        <span> Atribuição '+' valor positivo:</span>
+        <br>
+        <span> **Atribuição '+' pode ser um concatenador de string e etc</span>
+        <br> 
+        <span> Atribuição '-' valor negativo:</span>
+        <br> 
+        <span> Atribuição '++' valor incremeta mais um no valor</span>
+        <br>
+        <span> Atribuição '--' valor decrementa menos um no valor</span>
+    </p>
+    <hr>
+    <hr>
+<!-- operador ternario (se true)'?' -->
+    <p>
+        <span> Operadore Ternarios simbolo (se true) '?' já (se false) ':'  </span>
+        <br> 
+        <span> 'expressao codicional' ? 'caso true' : 'caso false' </span> 
+        <br>
+        <span> exemplo: </span><br>
+        <span> int a, b; </span><br>
+        <span>  a = 5; </span><br>
+        <span>  b = 6; </span><br>
+        <span> int a, b; </span><br>
+    </p>
+    <hr>
+    <hr>
+<!-- operador Relacionais '==' '!=' '>' '>=' '<' '<=' '&&' '||' -->
+    <p>
+        <span> Operadores Relacionais retorna um valor boobleano(true ou false) os operadores: '==' '!=' '>' '>=' '<' '<=' '&&' '||'</span>
+        <br> 
+        <span> 'expressao codicional' ? 'caso true' : 'caso false' </span> 
+        <br>
+        <span>'==' Verifica se variavel ou valoresc é igual ao outro </span><br>
+        <span>'===' Verifica se variavel ou valores é estritamente iguais </span><br>
+        <span>'!=' Verifica se variaveid/valores se são diferentes </span><br>
+        <span>'!==' Verifica se variaveis ou valores são estritamente diferentes </span><br>
+        <span>'>' Verifica se variaveis/valores são maior que </span><br>
+        <span>'>=' Verifica se variaveis/valores são maior e igual que </span><br>
+        <span>'<' Verifica se variaveis/valores são menor que </span><br>
+        <span>'<=' Verifica se variaveis/valores são menor e igual que </span><br>
+        <span><< Operadores Lógicos >></span><br>
+        <span>'&&'  Verifica se variaveis/valores são E. todos tem ser true </span><br>
+        <span>'||'  Verifica se variaveis/valores são OU. Um ou outro true</span><br>
+        <br>
+    </p>
+
+</article>

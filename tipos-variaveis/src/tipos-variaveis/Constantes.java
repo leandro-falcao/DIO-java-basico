@@ -8,7 +8,7 @@ public class Constantes {
 
         // CAIXA ALTA SEM FINAL NAO É IMUTAVÉL
         double VALOR_CX_ALTA = 12.56;
-        VALOR_CX_ALTA = 35.81; // Muou o valor, se para ser imutavel precisa de final.
+        VALOR_CX_ALTA = 35.81; // Mudou o valor, se para ser imutavel precisa de final.
         System.out.println(VALOR_CX_ALTA);
         ///
     }
