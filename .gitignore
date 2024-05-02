@@ -29,3 +29,6 @@ tipos-variaveis/.vscode
 tipos-variaveis/.vscode/settings.json
 *settings.json
 sistema-smarttv/.vscode/settings.json
+
+.idea
+.idea/*
