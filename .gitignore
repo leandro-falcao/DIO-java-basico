@@ -31,4 +31,9 @@ tipos-variaveis/.vscode/settings.json
 sistema-smarttv/.vscode/settings.json
 
 .idea
+*/.idea
 .idea/*
+/.*
+out
+DIO-java-basico-santander/out
+*/out
